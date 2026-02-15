@@ -248,7 +248,7 @@ def main():
     app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), maths_answer))
 
     clear_console()
-    #design_screen()
+    design_screen()
 
     # ✅ Startup message using post_init (cleanest way)
     async def post_init(app):
